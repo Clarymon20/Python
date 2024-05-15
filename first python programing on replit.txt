@@ -1,0 +1,79 @@
+def addition():
+  a = 5
+  b = 10
+  c = a + b
+  print(c)
+
+
+addition()
+
+
+def division():
+  c = 20
+  d = 5
+  e = c / d
+  print(e)
+
+
+division()
+
+
+def greaterThan():
+  a = 20
+  b = 50
+  c = a > b
+  print(c)
+
+
+greaterThan()
+
+
+def lessThan():
+  a = 20
+  b = 50
+  c = a > b
+  print(c)
+
+
+lessThan()
+
+
+def lessThan():
+  a = 50
+  b = 20
+  c = a > b
+  print(c)
+
+
+lessThan()
+
+
+def comparator():
+  a = input("enter any number:")
+  b = input("enter any number:")
+  c = a > b
+  print(c)
+
+
+comparator()
+
+
+def calculator():
+  num1 = float(input("enter first number: "))
+  num2 = float(input("enter second number: "))
+  operator = input("enter operator(+,-,*,/): ")
+  if operator == "+":
+    print("result", (num1 + num2))
+  elif operator == "-":
+    print("result", (num1 - num2))
+  elif operator == "*":
+    print("result", (num1 * num2))
+  elif operator == "/":
+    if num2 == 0:
+      print("error division by zero is not allowed")
+    print("result", (num1 / num2))
+  else:
+    print("invalid operator")
+
+
+calculator()
